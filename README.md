@@ -3,6 +3,12 @@
 The project was done using Linux filesystem, for the ease of building, use a linux machine.
 
 Dependencies: SFML 2.5.1
+
+In Debian-based systems,
+```
+sudo apt install libsfml-*
+```
+
 Using Cmake from commandline
 From our base project directory, type in the following commands:
 ```
