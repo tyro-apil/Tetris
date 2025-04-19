@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(sfml_test)
+project(Tetris)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -19,9 +19,9 @@ set(SOURCE_FILES
         src/FileManager.cpp
 
 )
-add_executable(sfml_test ${SOURCE_FILES})
-#include_directories(inc)
-include_directories(/opt/homebrew/include/SFML inc)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+include_directories(inc)
+#include_directories(/opt/homebrew/include/SFML inc)
 
 find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
 include_directories(${SFML_INCLUDE_DIRS})
