@@ -9,6 +9,9 @@ In Debian-based systems,
 sudo apt install libsfml-*
 ```
 
+General Installation  
+Visit [sfml-2.5.1-downloads](https://www.sfml-dev.org/download/sfml/2.5.1/) and download as per required system  
+
 Using Cmake from commandline
 From our base project directory, type in the following commands:
 ```
